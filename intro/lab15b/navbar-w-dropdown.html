@@ -1,0 +1,36 @@
+<head>
+  <style>
+    nav li {
+      display: inline-block;
+      position: relative;
+    }
+    nav li ul {
+      display: none;
+      position: absolute;
+      width: 100px;
+      top: 100%;
+      padding: 0;
+    }
+    nav li:hover > ul {
+      display: block;
+    }
+    nav a {
+    }
+  </style>
+</head>
+
+<nav>
+  <ul>
+    <li><a href="#item1">Item 1</a></li>
+    <li><a href="#item2">Item 2</a>
+      <ul>
+        <li><a href="#sub1">Sub Item 1</a></li>
+        <li><a href="#sub2">Sub Item 2</a></li>
+      </ul>
+    </li>
+    <li><a href="#item3">Item 3</a></li>
+    <li><a href="#item4">Item 4</a></li>
+  </ul>
+</nav>
+
+
